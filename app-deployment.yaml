@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: mi-app
-          image: andresnjr10/mi-app:latest
+          image: andresnjr10/app-con-minio:v1
           env:
             - name: MINIO_ENDPOINT
               value: "http://minio-service:9000"
